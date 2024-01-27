@@ -1,0 +1,21 @@
+name: gllm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - requests
+  - xlrd
+  - openpyxl
+  - pip:
+    - tqdm
+    - unidecode
+    - tiktoken
+    - openai
+    - scikit-learn
+    - more-itertools
